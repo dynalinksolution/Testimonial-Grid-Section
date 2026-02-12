@@ -65,6 +65,12 @@ main {
 .daniel {
   background-color: var(--Purple-500);
 }
+.quote {
+  display: none;
+  position: absolute;
+  right: 3em;
+  top: 0;
+}
 .jonathan {
   background-color: var(--Grey-500);
 }
@@ -146,4 +152,8 @@ main {
   .card {
     margin: unset;
   }
+  .quote {
+    display: block;
+  }
 }
+
